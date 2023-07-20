@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="brname" value="chrome"></parameter>
+	  <parameter name="name" value="samwong@gmail.com"></parameter>
+	  <parameter name="password" value="sam@123"></parameter>
+	  <classes>
+		  <class name="TestCases.TC_Login_Functionality"></class>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+  <test thread-count="5" name="Test">
+	  <parameter name="brname" value="chrome"></parameter>
+	  <parameter name="fname" value="sam"></parameter>
+	  <parameter name="lname" value="pedro"></parameter>
+	  <parameter name="email" value="spedro@gmail.com"></parameter>
+	  <parameter name="password" value="test@123"></parameter>
+	  
+    <classes>
+      <class name="TestCases.TC_Register_Functionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
